@@ -16,6 +16,10 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 // require('./routes/api-routes')(app);
 // require('./routes/html-routes')(app);
 
+app.get('/', function(req, res) {
+  res.render('index', {});
+});
+
 app.listen(PORT, function() {
     console.log('Listening to ' + PORT);
 });

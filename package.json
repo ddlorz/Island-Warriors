@@ -31,13 +31,11 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "express": "^4.16.2",
-    "jquery": "^3.2.1",
     "mongoose": "^4.13.9",
     "path": "^0.12.7",
     "webpack": "^3.10.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
+    "express": "^4.16.2"
   }
 }
