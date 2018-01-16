@@ -1,0 +1,43 @@
+{
+  "name": "island-warriors",
+  "version": "1.0.0",
+  "description": "Island Warriors Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djrloria/Island-Warriors.git"
+  },
+  "author": "Domingo Loria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djrloria/Island-Warriors/issues"
+  },
+  "homepage": "https://github.com/djrloria/Island-Warriors#readme",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "body-parser": "^1.18.2",
+    "eslint": "^4.15.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.13.9",
+    "path": "^0.12.7",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
