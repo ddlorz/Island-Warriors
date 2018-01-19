@@ -41,5 +41,11 @@ $(document).ready(function() {
         $('#' + i + '-list').addClass('hidden');
         $('#' + i).removeClass('active');
     }
+
+    // Members
+
+    $('.people').on('click', function(e) {
+        console.log(e.target.attributes.value.value);
+    });
     
 });

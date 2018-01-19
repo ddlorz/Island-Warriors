@@ -171,7 +171,10 @@ a.nav-link {
 /* Image Carousel */
 
 #img-carousel {
-    margin-top: 50px;    
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: url('../img/background.png');
+    background-size: 100% 100%;
 }
 
 #img-carousel li img {
@@ -216,7 +219,6 @@ a.nav-link {
 
 #about {
     background-color: #fafafa;
-    margin-top: 100px;
     padding: 80px 0 80px 0;
 }
 
@@ -239,8 +241,8 @@ a.nav-link {
 /* Awards */
 
 #awards {
-    height: 450px;
-    background:url(../img/awards.png),linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    height: 500px;
+    background: url(../img/awards.png),linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
     background-blend-mode: overlay;
 }
 
@@ -249,11 +251,8 @@ a.nav-link {
 }
 
 #awards .row h4 {
-    text-align: center;
-    width: 60px;
-}
-
-#awards .row h4 {
+    text-align: left;
+    width: auto;
     opacity: 0.9;
 }
 
@@ -268,23 +267,36 @@ a.nav-link {
     font-size: 18px;
 }
 
-/* Leadership */
+/* Members */
 
-#leadership {
-    margin-top: 80px;
+#members {
+    background-color: #d85450;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin-top: 100px;
 }
 
-#leadership h3 {
-    margin-bottom: 60px;
+#members .members {
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    padding: 40px 20px 40px 20px;
+}
+
+#members h2 {
     text-shadow: 1px 1px 1px #888888;
 }
 
-#leadership img {
-    width: 200px;
-    height: 200px;
-    box-shadow: 2px 1px 1px #888888; 
-    margin-bottom: 20px;
+#members .members .col:hover img {
+    position: absolute;
+    width: 85px;
+    height: auto;
 }
 
-#leadership
+#members .members .col:hover p {
+    display: none;
+}
+
+#members .profile {
+    border-radius: 0 10px 10px 0;
+}
 
