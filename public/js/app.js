@@ -2,6 +2,8 @@ $(document).ready(function() {
     console.log('ready!');
 
     // Intro buttons
+    $('#intro, #about, #awards, #members').removeClass('hidden');
+
     $('#intro-view').on('click', function() {
         $('#intro-events').slideToggle(500);
     });
